@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MobiLearning</string>
+    <string name="p">Aplikasi	office	(aplikasi perkantoran) adalah kumpulan aplikasi yang digunakan
+untuk	 memudahkan	 pekerjaan	 perkantoran.	 Karena	 berupa	 aplikasi,	 ituriturnya	 sudah	 tersedia	 dan	 dapat	 langsung	 digunakan	 oleh	 pengguna,	 tanpa
+harus membangunnya sendiri menggunakan bahasa pemrograman.
+Secara umum, aplikasi perkantoran terbagi menjadi beberapa jenis
+menurut kegunaan dan fungsinya. Tiga di antaranya yang paling banyak
+digunakan ialah seperti berikut.\n\n
+\t \t \t \t1. Aplikasi pengolah kata (word processor). Aplikasi	 ini	 itur	 utamanya
+\t \t \t \t digunakan untuk membuat dan mengolah dokumen, misalnya membuat
+\t \t \t \t surat, menyusun laporan, dan lain-lain. Contoh aplikasi pengolah kata
+\t \t \t \t ialah Microsoft	Word,	Open	Oice	Word,	Google Docs, dan lain-lain.\n\n
+\t \t \t 2. Aplikasi pengolah lembar kerja (spreadsheet). Aplikasi	ini	itur	utamanya
+digunakan untuk mengelola data yang disajikan dalam bentuk lembar
+kerja,	 yaitu	 tabel	 dua	 dimensi	 yang	 terdiri	 atas	 kolom	 dan	 baris	 ituritur	yang	tersedia	dapat	mempermudah	perhitungan	data	dan	mengolah
+data secara statistik, dan dapat menampilkannya dalam bentuk
+diagram. Contoh aplikasi spreadsheet ialah Microsoft	Excel,	OpenOice
+Spreadsheet, Google Sheet, dan lain lain.\n\n
+\t \t \t 3. Aplikasi pembuat bahan presentasi yang disebut slide. Aplikasi	ini	itur
+utamanya digunakan untuk memudahkan kita untuk membuat slide
+presentasi dengan mudah dan cepat serta menghasilkan slide yang
+menarik. Slide presentasi adalah objek yang terdiri atas butir-butir
+penjelasan, dapat disertai gambar atau ilustrasi lainnya. Contoh perangkat
+lunak pembuat presentasi ialah Microsoft	Oice	PowerPoint,	OpenOice
+Presentation, Google Slide, dan lain-lain.</string>
+</resources>

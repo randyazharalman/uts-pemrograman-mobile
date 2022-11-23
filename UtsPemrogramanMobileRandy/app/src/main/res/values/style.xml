@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <style name="Apptheme" parent="Theme.AppCompat.Light">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        <item name="android:textColorPrimary">@color/title_color</item>-->
+<!--&lt;!&ndash;        <item name="android:textColorSecondary">@color/colorTitle</item>&ndash;&gt;-->
+<!--    </style>-->
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <resources>
+        <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+            <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+        </style>
+
+        <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+            <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        </style>
+
+        <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+            <item name="android:textColor">@color/black</item>
+        </style>
+    </resources>
+
+<!--    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        &lt;!&ndash; Support library compatibility &ndash;&gt;-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+<!--    </style>-->
+<!--    <style name="toolbartex" parent="TextAppearance.MaterialComponents.Button">-->
+<!--        <item name="android:textSize">16dp</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+<!--    </style>-->
+<!--    -->
+<!--    <style name="main.Toolbar" parent="Widget.AppCompat.Toolbar">-->
+<!--        <item name="android:background">@color/white</item>-->
+<!--        <item name="theme">@style/Apptheme</item>-->
+<!--        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>-->
+<!--        <item name="titleTextAppearance">@style/toolbartex</item>-->
+<!--    </style>-->
+<!--    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title." parent="@android:style/Text"></style>-->
+<!--</resources>-->

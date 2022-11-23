@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/logopti"
+                tools:layout_conversion_absoluteHeight="277dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                android:layout_marginBottom="8dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="MOBILE LEARNING"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textSize="25dp"
+                android:fontFamily="@font/poppins_medium"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.219"
+                tools:layout_conversion_absoluteHeight="79dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Teknologi Informasi dan Komunikasi"
+                android:fontFamily="@font/poppins_medium"
+                android:textAlignment="center"
+                android:textColor="#19486E"
+                android:textSize="19sp"
+                tools:layout_conversion_absoluteHeight="33dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="356dp" />
+
+            <Button
+                android:id="@+id/btnTujuanPembelajaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:onClick="moveToTujuanPembelajaran"
+                android:text="Tujuan Pembelajaran"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnPertanyaanPemantik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Pertanyaan Pemantik"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnPetaKonsep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Peta Konsep"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnApersepsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Apersepsi"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnKataKunci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Kata Kunci"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnMateri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Materi"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+            <Button
+                android:id="@+id/btnTentangAplikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#03A9F4"
+                android:text="Tentang Aplikasi"
+                android:textAlignment="center"
+                tools:layout_conversion_absoluteHeight="58dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

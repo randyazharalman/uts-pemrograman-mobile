@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang_Aplikasi"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/aboutapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/undraw_online_messaging_re_qft3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:text="Aplikasi Mobilearning merupakan aplikasi yang dikembangkan dalam bidang pendidikan sekaligus pembelajaran yang dikembangkan oleh"
+        android:textColor="#184060"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/aboutapp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+    <TextView
+        android:id="@+id/mobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:layout_marginTop="190dp"
+        android:text="Randy Azhar Alman Faluthi"
+        android:textColor="#03A9F4"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/aboutapp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/tentang_aplikasi_bar_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        >-->
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/bar_tentang_aplikasi"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"-->
+<!--            app:title="Tentang Aplikasi"-->
+<!--            android:background="@color/white"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            style="?android:attr/borderlessButtonStyle"-->
+<!--            android:stateListAnimator="@null"-->
+<!--            app:titleTextColor="#03A9F4">-->
+
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+
+
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
